@@ -1,7 +1,8 @@
 services:
   game1:
     image: amfunNylord/game:1.0.0
-    build: /
+    build:
+      context: .
     container_name: game1
     ports:
       - 8081:8080
